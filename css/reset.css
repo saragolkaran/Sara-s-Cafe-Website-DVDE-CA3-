@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* 
+
+Layout Sheet of my all webpages
+
+Name: Sara Golkaran
+
+Filename: reset.css
+
+*/
+
+/* Layout of header and the effect of the title */
+
+
+body {
+    background-color: #e5c9c8;
+}
+
+
+li a {
+    font-size: 0.95em;
+    font-family: 'Handlee', cursive;
+    color: #824621;
+}
+a.navbar-brand {
+    color: #824621;
+}
+
+button.navbar-toggler{
+    color: #824621;
+
+}
+a:hover {
+    background-color: rgb(255, 153, 170);
+    border-radius: 10px;
+}
+
+
+.navbar-custom {
+    background-color: #ff5500;
+}
+
+.navbar{
+    color:#faafa0;
+}
+
+footer {
+    padding: 3px;
+    height:60px;
+    background-color: rgb(116,82,81);
+}
+p.text-center{
+    color: white;
+    font-size: 22px;
+    font-family: 'Handlee', cursive;
+}
+
+.navbar-toggler-icon{
+    border-color: pink;
+
+}

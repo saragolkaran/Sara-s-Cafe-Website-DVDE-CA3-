@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* 
+
+Layout Sheet of my index webpage
+
+Name: Sara Golkaran
+
+Filename: test2.css
+
+*/
+
+@charset "utf-8";
+
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3{
+  font-family: 'Handlee', cursive;
+  color: #824621;
+}
+
+p{
+  font-family: 'Handlee', cursive;
+}

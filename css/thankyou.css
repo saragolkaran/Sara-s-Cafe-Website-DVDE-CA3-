@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* 
+
+Layout Sheet of my thankyou webpage
+
+Name: Sara Golkaran
+
+Filename: thankyou.css
+
+*/
+
+
+.thankyou {
+    border-style: solid;
+    border-color: rgb(255, 192, 203);
+    background-color: white;
+    border-radius: 40px;
+    padding: 80px;
+    margin: 100px;
+    height: 15%;
+    font-family: 'Handlee', cursive;
+}
+
+div.footerlandc {
+    background-color: rgb(116, 82, 81);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: #824621;
+    font-size: 1.4em;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+}
+
+h1 {
+    color: #824621;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+}

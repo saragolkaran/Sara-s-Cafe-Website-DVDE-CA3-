@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* 
+
+Layout Sheet of my reservation webpage
+
+Name: Sara Golkaran
+
+Filename: reservation.css
+
+*/
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 6px;
+    z-index: inherit;
+    transition: 4.0s;
+}
+
+
+textarea {
+    display: inline-block;
+    margin: 5px;
+    height: 100px;
+    width: 600px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 5px solid rgb(255, 204, 212);
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Handlee', cursive;
+  }
+
+  input[type=submit] {
+    background-color: rgb(135, 206, 250);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 204, 212);
+  }
+
+  input, textarea {
+    background-color : white;
+  }
+  
+  input{
+      background-color: white;
+  }
+  
+  .space{
+        border-style: solid;
+        border-color: rgb(255, 192, 203);
+        background-color: white;
+        border-radius: 40px;
+        padding: 40px;
+        margin: 100px;
+        height:15%;
+        font-family: 'Handlee', cursive;
+  }
+  
+  h1{
+      text-align: center;
+      font-family: 'Handlee', cursive;
+      color: #824621;
+  }
+
+  .words{
+      color:black;
+  }

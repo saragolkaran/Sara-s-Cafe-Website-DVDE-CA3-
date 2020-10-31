@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* 
+
+Layout Sheet of my main dishes webpage
+
+Name: Sara Golkaran
+
+Filename: maindish.css
+
+*/
+
+h1 {
+  color: rgb(180, 94, 109);
+}
+
+h2 {
+  color: rgb(180, 94, 109);
+}
+
+.card {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 100%;
+  height: 90%;
+  margin-top: 28px;
+  background-image: url("../images/cutepurple.png");
+  transition: 1.0s;
+}
+
+.object-fit {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 19px;
+  font-family: 'Handlee', cursive;
+  text-align: center;
+}
+
+.cardInner {
+  padding: 30px;
+  background-color: transparent;
+  width: 250px;
+  height: 300px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.column:hover .cardInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront, .cardBack {
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  backface-visibility: hidden;
+}
+
+.cardFront img {
+  border-radius: 30px;
+}
+
+.cardBack {
+  background-color: rgb(205, 133, 63);
+  color: white;
+  transform: rotateY(180deg);
+  width: 270px;
+  height: 230px;
+  border-radius: 30px;
+}
+
+h1 {
+  display: grid;
+  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  align-items: center;
+  text-align: center;
+  grid-gap: 20px;
+  width: 100%;
+  font-family: 'Handlee', cursive;
+}
+
+h1:before, h1:after {
+  content: '';
+  border-top: 2px solid;
+  color: white;
+}

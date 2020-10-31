@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* 
+
+Layout Sheet of my index webpage
+
+Name: Sara Golkaran
+
+Filename: index.css
+
+*/
+
+.object-fit {
+    height: 25%;
+    width: 100%;
+}
+
+.card-body{
+    background-color: white;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    color:rgb(130,70,33);
+    text-align: center;
+
+}
+
+p{
+    color:rgb(130,70,33);
+}
+
